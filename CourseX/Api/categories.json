@@ -1,0 +1,16 @@
+[
+    {
+        "Id": "1",
+        "Title": "Mühendislik",
+        "SeoUrl": "muhendislik",
+        "CreatedDate": "2023-01-03 00:10:56",
+        "Status": "Active"
+    },
+    {
+        "Id": "4",
+        "Title": "Siber Güvenlik",
+        "SeoUrl": "siber-guvenlik",
+        "CreatedDate": "2023-01-03 00:48:51",
+        "Status": "Active"
+    }
+]

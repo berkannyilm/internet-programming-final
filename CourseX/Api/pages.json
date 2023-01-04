@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "3",
+        "Title": "Hakkımızda",
+        "SeoUrl": "hakkimizda",
+        "Detail": "Hakkımızda detay",
+        "Arrangement": "1",
+        "CreatedDate": "2023-01-04 11:29:23"
+    },
+    {
+        "Id": "2",
+        "Title": "Gizlilik Sözleşmesi",
+        "SeoUrl": "gizlilik-sozlesmesi",
+        "Detail": "Gizlilik sözleşmesi detay",
+        "Arrangement": "2",
+        "CreatedDate": "2023-01-04 11:29:13"
+    },
+    {
+        "Id": "4",
+        "Title": "Kullanıcı Sözleşmesi",
+        "SeoUrl": "kullanici-sozlesmesi",
+        "Detail": "sözleşme detay",
+        "Arrangement": "3",
+        "CreatedDate": "2023-01-04 11:45:21"
+    }
+]

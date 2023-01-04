@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "5",
+        "ImageUrl": "cdn\/images\/courses\/63b5429f07928.png",
+        "Title": "PHP ile Muheteşem Siteler Oluşturun !",
+        "Rating": "0",
+        "SeoUrl": "php-ile-muhetesem-siteler-olusturun",
+        "CategoryTitle": "Siber Güvenlik",
+        "IProfileImageUrl": "cdn\/images\/instructors\/63b3291f682a1.jpg",
+        "IFirstnameAndLastname": "Berkan Yılmaz",
+        "CreatedDate": "2023-01-04 12:10:55",
+        "Status": "Active"
+    },
+    {
+        "Id": "4",
+        "ImageUrl": "cdn\/images\/courses\/63b41f3312392.jpg",
+        "Title": "Microsoft Azure",
+        "Rating": "0",
+        "SeoUrl": "microsoft-azure",
+        "CategoryTitle": "Mühendislik",
+        "IProfileImageUrl": "cdn\/images\/instructors\/63b3291f682a1.jpg",
+        "IFirstnameAndLastname": "Berkan Yılmaz",
+        "CreatedDate": "2023-01-03 15:24:21",
+        "Status": "Active"
+    }
+]

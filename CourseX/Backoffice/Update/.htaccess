@@ -1,0 +1,17 @@
+RewriteEngine on 
+
+RewriteCond %{SERVER_PORT} 80
+  
+
+RewriteCond %{REQUEST_FILENAME} |-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+ 
+#URL  
+RewriteRule ^UpdateMetaTag$ UpdateMetaTag.php [L,NC]    
+RewriteRule ^UpdateSocialMedia$ UpdateSocialMedia.php [L,NC]  
+RewriteRule ^UpdateContactInformation$ UpdateContactInformation.php [L,NC]  
+RewriteRule ^UpdateLogo$ UpdateLogo.php [L,NC]  
+RewriteRule ^UpdateCategory$ UpdateCategory.php [L,NC]  
+RewriteRule ^ActivedCategory$ ActivedCategory.php [L,NC]  

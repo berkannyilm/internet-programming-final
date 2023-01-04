@@ -1,0 +1,16 @@
+RewriteEngine on 
+
+RewriteCond %{SERVER_PORT} 80
+  
+
+RewriteCond %{REQUEST_FILENAME} |-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+  
+RewriteRule ^Home$ index.php [L,NC]   
+RewriteRule ^kurs-izle-([0-9a-zA-Z-_]+)-([0-9]+)$  WatchCourse.php?sef=$1&CourseId=$2 [L,QSA]  
+RewriteRule ^kurs-([0-9a-zA-Z-_]+)-([0-9]+)$  CourseDetail.php?sef=$1&CourseId=$2 [L,QSA] 
+RewriteRule ^sayfa-([0-9a-zA-Z-_]+)-([0-9]+)$  PageDetail.php?sef=$1&PageId=$2 [L,QSA] 
+RewriteRule ^kategori-([0-9a-zA-Z-_]+)-([0-9]+)$  Courses.php?sef=$1&CategoryId=$2 [L,QSA] 

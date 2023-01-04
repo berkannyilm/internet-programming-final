@@ -1,0 +1,12 @@
+[
+    {
+        "Id": "5",
+        "Email": "berkan@bytecth.com.tr",
+        "CreatedDate": "2023-01-04 12:34:49"
+    },
+    {
+        "Id": "4",
+        "Email": "berkan@bytecth.com",
+        "CreatedDate": "2023-01-04 11:40:19"
+    }
+]

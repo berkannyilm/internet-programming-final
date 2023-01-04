@@ -1,0 +1,19 @@
+RewriteEngine on 
+
+RewriteCond %{SERVER_PORT} 80
+  
+
+RewriteCond %{REQUEST_FILENAME} |-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^Login$ Login.php [L,NC]  
+RewriteRule ^Logout$ Logout.php [L,NC]  
+RewriteRule ^Home$ index.php [L,NC]  
+RewriteRule ^UpdateMetaTag$ UpdateMetaTag.php [L,NC]  
+RewriteRule ^UpdateSocialMedia$ UpdateSocialMedia.php [L,NC]  
+RewriteRule ^UpdateContactInformation$ UpdateContactInformation.php [L,NC] 
+RewriteRule ^UpdateLogo$ UpdateLogo.php [L,NC]   
+RewriteRule ^AddInstructor$ AddInstructor.php [L,NC]   
+RewriteRule ^AllInstructors$ AllInstructors.php [L,NC]   

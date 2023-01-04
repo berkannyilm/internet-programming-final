@@ -1,0 +1,30 @@
+[
+    {
+        "Id": "5",
+        "Firstname": "Oğuz",
+        "Lastname": "Atay",
+        "CreatedDate": "2023-01-04 12:16:48",
+        "Status": "Active"
+    },
+    {
+        "Id": "3",
+        "Firstname": "Berkan",
+        "Lastname": "Yılmaz",
+        "CreatedDate": "2023-01-04 02:02:53",
+        "Status": "Active"
+    },
+    {
+        "Id": "2",
+        "Firstname": "Berkan",
+        "Lastname": "Yılmaz",
+        "CreatedDate": "2023-01-04 02:02:16",
+        "Status": "Active"
+    },
+    {
+        "Id": "1",
+        "Firstname": "Berkan",
+        "Lastname": "Yılmaz",
+        "CreatedDate": "2023-01-04 02:00:17",
+        "Status": "Active"
+    }
+]

@@ -1,0 +1,15 @@
+RewriteEngine on 
+
+RewriteCond %{SERVER_PORT} 80
+  
+
+RewriteCond %{REQUEST_FILENAME} |-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+ 
+#URL
+
+RewriteRule ^DeleteInstructor$ DeleteInstructor.php [L,NC]  
+RewriteRule ^DeleteCategory$ DeleteCategory.php [L,NC]  
+RewriteRule ^DeleteCourse$ DeleteCourse.php [L,NC]  
